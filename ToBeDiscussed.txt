@@ -1,0 +1,2 @@
+-> Navbar area reserve krne k liye main-content ko margin 250 dedi
+-> navbar ese he banana h ya grids ka use krke

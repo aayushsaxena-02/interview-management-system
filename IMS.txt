@@ -1,0 +1,46 @@
+Project Structure
+
+- interview-management-system/
+  ├── public/              // Static assets like images, fonts, etc.
+  │   ├── images/
+  │   │   └── logo.png
+  │   └── favicon.ico
+  ├── src/                 // Source code (Next.js app with App Router)
+  │   ├── app/
+  │   └── components/
+  ├── node_modules/
+  ├── next.config.js
+  ├── package.json
+  └── README.md
+
+src/
+├── app/                      // New app directory for Next.js App Router
+│   ├── layout.js             // Root layout
+│   ├── page.js               // Root page (homepage)
+│   ├── api/                  // API routes (optional)
+│   ├── auth/                 // Authentication pages
+│   │   └── page.js           // Auth page (e.g., login/signup)
+│   └── dashboard/            // Dashboard feature
+│       ├── page.js           // Dashboard main page
+│       └── layout.js         // Dashboard layout (optional)
+├── components/               // Reusable components
+│   ├── Button/
+│   │   └── Button.tsx
+│   ├── Header/
+│   │   └── Header.tsx
+│   └── Footer/
+│       └── Footer.tsx
+├── features/                 // Application features or modules
+│   ├── auth/                 // Authentication logic
+│   └── dashboard/            // Dashboard logic
+├── hooks/                    // Custom hooks
+│   └── useAuth.ts
+├── styles/                   // Global and module-specific styles
+│   ├── globals.css
+│   └── Header.module.css
+├── utils/                    // Utility functions
+│   └── api.ts
+├── types/                    // TypeScript declaration files
+│   └── index.d.ts
+└── store/                    // Redux or state management setup
+    └── index.ts
