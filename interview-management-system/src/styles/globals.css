@@ -2,23 +2,23 @@
 @tailwind components;
 @tailwind utilities;
 
-
 body {
-  margin: 0;
-  font-family: Arial, sans-serif;
+	font-family: var(--font-inter);
+	margin: 0;
+	background-color: #fffefd !important;
 }
 
 main {
-  margin-left: 250px; 
-  padding: 1rem; 
+	margin-left: 250px;
+	padding: 1rem;
 }
 
 input[type="number"]::-webkit-outer-spin-button,
 input[type="number"]::-webkit-inner-spin-button {
-    -webkit-appearance: none;
-    margin: 0;
+	-webkit-appearance: none;
+	margin: 0;
 }
 
 input[name="resume"] {
-  /* padding: 100px; */
+	/* padding: 100px; */
 }

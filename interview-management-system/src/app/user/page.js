@@ -1,9 +1,9 @@
-import UserProfileForm from "@/features/user/UserProfileForm"
+import UserProfileForm from "@/features/user/UserProfileForm";
 
-export default function UserProfilePage () {
-    return (
-        <div>
-            <UserProfileForm />
-        </div>
-    )
+export default function UserProfilePage() {
+	return (
+		<div>
+			<UserProfileForm />
+		</div>
+	);
 }
